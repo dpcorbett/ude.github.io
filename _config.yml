@@ -27,6 +27,9 @@ github_username:  dpcorbett
 # Build settings
 markdown: kramdown
 theme: minima
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
 gems:
   - jekyll-feed
 exclude:
